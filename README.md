@@ -1,5 +1,5 @@
 # Image-Enhancement
-Baisc image enhancements using [OpenCV](https://opencv-java-tutorials.readthedocs.io/en/latest/) and [IJ](https://github.com/imagej/imagej1/).
+Basic image enhancements using [OpenCV](https://opencv-java-tutorials.readthedocs.io/en/latest/) and [IJ](https://github.com/imagej/imagej1/).
 
 ## Requirements
 For building and running the application you need:
@@ -12,14 +12,16 @@ There are several ways to run a this module on your local machine. one way is to
 1. image file with full path
 2. true or false (to perform the face detection in the image).
 
-Alternatively you Maven plugin and run jar from command prompt/terminal like so:
+Alternatively you can use Maven package plugin to build fat jar file and run jar from command prompt/terminal like so:
 
 ```shell
 mvn package
 ```
 u can find fat jar of application run the jar file from command line while passing arguments in place for
-<imageFilepath> as C:\data\sampleimage.jpg
-<true> or <false> as values to command line
+[imageFilepath] as C:\data\sampleimage.jpg
+
+[true] or true/false as values to command line
+
 ```shell
-java -jar ImageEnhancer-0.0.1-SNAPSHOT.jar <imageFilepath> <true>
+java -jar ImageEnhancer-0.0.1-SNAPSHOT.jar [imageFilepath] [true]
 ```
