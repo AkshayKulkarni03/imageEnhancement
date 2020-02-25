@@ -17,7 +17,9 @@ Alternatively you Maven plugin and run jar from command prompt/terminal like so:
 ```shell
 mvn package
 ```
-u can find fat jar of application run the jar file from command line
+u can find fat jar of application run the jar file from command line while passing arguments in place for
+<imageFilepath> as C:\data\sampleimage.jpg
+<true> or <false> as values to command line
 ```shell
-java -jar imag
+java -jar ImageEnhancer-0.0.1-SNAPSHOT.jar <imageFilepath> <true>
 ```
