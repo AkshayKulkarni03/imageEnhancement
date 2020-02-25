@@ -1,0 +1,10 @@
+target/
+.classpath
+.project
+.settings/
+.bpmn
+.factorypath
+node/
+node_modules/
+*.iml
+.idea/
