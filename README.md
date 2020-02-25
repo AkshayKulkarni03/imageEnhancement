@@ -18,6 +18,7 @@ Alternatively you can use Maven package plugin to build fat jar file and run jar
 mvn package
 ```
 u can find fat jar of application run the jar file from command line while passing arguments in place for
+
 [imageFilepath] as C:\data\sampleimage.jpg
 
 [true] or true/false as values to command line
