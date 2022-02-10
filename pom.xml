@@ -18,7 +18,7 @@
 		<dependency.tika.version>1.23</dependency.tika.version>
 		<dependency.ghost4j.version>1.0.1</dependency.ghost4j.version>
 		<dependency.apache.pdf.version>2.0.18</dependency.apache.pdf.version>
-		<dependency.apache.logging.log4j2.version>2.16.0</dependency.apache.logging.log4j2.version>
+		<dependency.apache.logging.log4j2.version>2.17.1</dependency.apache.logging.log4j2.version>
 		<dependency.commons.utils.version>3.9</dependency.commons.utils.version>
 		<dependency.openpnp.opencv.version>3.4.2-2</dependency.openpnp.opencv.version>
 		<app.main.class>com.example.image.enahance.poc.enhance.image.ImageEnhance</app.main.class>
